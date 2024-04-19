@@ -1,0 +1,137 @@
+@media (max-width:1612px){
+    .menu-container{
+        flex-wrap: wrap;
+    }
+    .banner-container>div{
+        font-size: 22px;
+    }
+    .about {
+        grid-template-columns: 1fr;
+    }
+    .card-container{
+        justify-content: stretch;
+        gap: 10px;
+    }
+    .banner-img{
+        width: 254px;
+        height:256px;
+    
+    }
+}
+@media (max-width:1412px){
+    .header-container {
+        width: calc(100% - 224px);
+    }
+    .banner-container>div{
+        font-size: 18px;
+    }
+    .banner-container{
+        width: calc(100% - 224px);
+    }
+    .about {
+        width: calc(100% - 224px);
+    }
+    .section-container{
+        width: calc(100% - 224px);
+    }
+    .form-section{
+        width: calc(100% - 224px);
+    }
+}
+@media (max-width:1052px){
+    .banner-container>div{
+        font-size: 15px;
+    }
+    .banner-img{
+        width: 154px;
+        height:156px;
+    
+    }
+    .card{
+        width: 224px;
+        height: 118px;
+        justify-content: center;
+    }
+    .card3-container>img {
+        width: 100%;
+    }
+    .inverter{
+        flex-direction: row;
+    }
+    .form-section>img{
+        display: none;
+    }
+}
+@media (max-width:870px){
+    .header-container{
+        width: calc(100% - 64px);
+        height: 56px;
+    }
+
+    .menu-container>.items{
+        display: none;
+    }
+    .menu-container>a, #logo{
+        font-size: 16px;
+        padding: 0;
+    }
+    .banner-container{
+        width: calc(100% - 64px);
+        margin: 32px auto;
+    }
+    .about {
+        width: calc(100% - 64px);
+    }
+    .section-container{
+        width: calc(100% - 64px);
+    }
+    .form-section{
+        width: calc(100% - 64px);
+    }
+    .banner-container>div{
+        font-size: 15px;
+        margin-right: 20px;
+        width: 60%;
+    }
+    .custom-container>div>div{
+        justify-content: center;
+    }
+    .banner-img{
+        width: 146px;
+        height:146px;
+    
+    }
+    .card2{
+        grid-template-rows: 118px 1fr;
+        width:224px;
+        height: 169px;
+    }
+    .card2>img{
+        width: 80%;
+        
+    }
+    .card2>div>h3{
+        font-size: 16px;
+        margin: 10px 0;
+    }
+
+}
+@media (max-width:412px){
+    .banner-img{
+        width: 98px;
+        height:98px;
+    
+    }
+    .header-container{
+        width: calc(100% - 30px);
+    }
+    .banner-container{
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+    }
+    .banner-container>div{
+        font-size: 15px;
+        margin-right: 20px;
+        width: 100%;
+    }
+}
